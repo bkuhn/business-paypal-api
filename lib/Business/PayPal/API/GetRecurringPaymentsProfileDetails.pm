@@ -9,8 +9,8 @@ use SOAP::Lite 0.67;
 use Business::PayPal::API ();
 
 our @ISA = qw(Business::PayPal::API);
-our $VERSION = '0.12';
-our $CVS_VERSION = '$Id: GetRecurringPaymentsProfileDetails.pm,v 1.5 2009/07/28 18:00:59 scott Exp $';
+
+
 our @EXPORT_OK = qw(GetRecurringPaymentsProfileDetails);  ## fake exporter
 
 sub GetRecurringPaymentsProfileDetails {
